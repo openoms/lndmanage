@@ -85,7 +85,7 @@ The workflow for rebalancing a channel goes as follows:
   to rebalance (target is a 50:50 balance)
 * do a dry run to see what's waiting for you
 
-  ```$ ./lndmange.py rebalance --max-fee-sat 20 --max-fee-rate 0.00001 channel_id```
+  ```$ ./lndmanage.py rebalance --max-fee-sat 20 --max-fee-rate 0.00001 channel_id```
 
 * read the output and if everything looks well, 
   then run with the ```--reckless``` flag
